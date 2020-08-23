@@ -2,9 +2,7 @@
 
 第4周学习笔记
 
-1. DFS模板-递归写法
-
-#DFS模板-递归写法
+1. DFS模板-递归写法：
 
 visited = set()
 
@@ -18,9 +16,7 @@ def dfs(node):
         if not next_node in visited:
             dfs(next_node, visited)
     
-2. DFS模板-非递归写法
-
-#DFS模板-非递归写法
+2. DFS模板-非递归写法:
 
 def DFS(self, tree):
     if tree.root is None:
