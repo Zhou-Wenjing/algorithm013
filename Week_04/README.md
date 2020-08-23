@@ -4,7 +4,7 @@
 
 1. DFS模板-递归写法
 
-# DFS模板-递归写法
+#DFS模板-递归写法
 
 visited = set()
 
@@ -20,7 +20,7 @@ def dfs(node):
     
 2. DFS模板-非递归写法
 
-# DFS模板-非递归写法
+#DFS模板-非递归写法
 
 def DFS(self, tree):
     if tree.root is None:
@@ -41,7 +41,7 @@ def DFS(self, tree):
 
 3. BFS模板
 
-# BFS模板
+#BFS模板
 
 def BFS(graph, start, end):
 
@@ -67,7 +67,7 @@ def BFS(graph, start, end):
    2) 存在上下界
    3) 能够通过索引访问
 
-    # 二分法模板
+    #二分法模板
     
     left, right = 0, len(array) - 1
     while left <= right:
